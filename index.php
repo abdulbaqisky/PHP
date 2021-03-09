@@ -33,7 +33,8 @@
     }
     $msg = "You have visited this page ". $_SESSION['counter'];
     $msg .= "in this session.";
-    unset($_SESSION['counter']);
+    //unset($_SESSION['counter']);
+    //session_destroy();
     ?>
     <html>
     <body>
